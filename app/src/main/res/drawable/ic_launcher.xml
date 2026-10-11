@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Same motif as the web app icon: two lyric lines with their translations. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path android:fillColor="#FF14161A" android:pathData="M112,0h288a112,112 0 0 1 112,112v288a112,112 0 0 1 -112,112h-288a112,112 0 0 1 -112,-112v-288a112,112 0 0 1 112,-112z" />
+    <path android:fillColor="#FFF2F2F2" android:pathData="M113,150h286a17,17 0 0 1 0,34h-286a17,17 0 0 1 0,-34z" />
+    <path android:fillColor="#FFE8A33D" android:pathData="M107,208h188a11,11 0 0 1 0,22h-188a11,11 0 0 1 0,-22z" />
+    <path android:fillColor="#FFF2F2F2" android:pathData="M113,282h246a17,17 0 0 1 0,34h-246a17,17 0 0 1 0,-34z" />
+    <path android:fillColor="#FFE8A33D" android:pathData="M107,340h158a11,11 0 0 1 0,22h-158a11,11 0 0 1 0,-22z" />
+</vector>
