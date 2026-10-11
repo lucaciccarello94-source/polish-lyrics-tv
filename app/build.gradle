@@ -1,0 +1,33 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'net.polishlyrics.tv'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'net.polishlyrics.tv'
+        // Fire OS 6 (Android 7.1) and later; Luca's stick runs Fire OS 8 (Android 11).
+        minSdk 25
+        targetSdk 34
+        versionCode 1
+        versionName '0.1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // Tiny embedded HTTP + WebSocket server (pulls in nanohttpd core).
+    implementation 'org.nanohttpd:nanohttpd-websocket:2.3.1'
+}
